@@ -32,6 +32,12 @@ img {
   width: 30%;
 }
 
+.w-33 {
+  width: calc(100% / 3);
+  height: 300px;
+  border: 1px solid black;
+}
+
 .w-40 {
   width: 40%;
 }
@@ -71,10 +77,6 @@ img {
   text-align: right;
 }
 
-.pos-relative {
-  position: relative;
-}
-
 /* Top Header  */
 
 header {
@@ -109,6 +111,7 @@ header {
 
 #jumbotron {
   height: 650px;
+  margin-bottom: 150px;
   background-color: rgb(180, 208, 230);
 }
 
