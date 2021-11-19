@@ -10,11 +10,17 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* UTILITIES */
 
 .container-1200 {
   width: 1200px;
-  margin: 100px auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-1000 {
@@ -22,9 +28,20 @@ body {
   margin: 100px auto;
 }
 
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
 .w-50 {
   width: 50%;
-  margin: 0 auto;
+}
+
+.w-70 {
+  width: 70%;
 }
 
 .flt {
@@ -53,17 +70,18 @@ body {
   margin-right: 30px;
 }
 
+.txt-right {
+  text-align: right;
+}
+
 /* Top Header  */
 
 header {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
-  height: 150px;
 }
 
 #header-bar {
-  border: 1px solid black;
   height: 80px;
   line-height: 80px;
 }
@@ -78,6 +96,7 @@ header {
   padding: 0 15px;
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #header-bar img {
@@ -85,8 +104,20 @@ header {
   margin-left: 15px;
 }
 
-.txt-right {
-  text-align: right;
+/* Jumbotron */
+
+#jumbotron {
+  height: 650px;
+  background-color: rgb(180, 208, 230);
 }
 
-/* Jumbotron */
+#jumbotron h1 {
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+
+#jumbotron img {
+  padding: 16px;
+}
