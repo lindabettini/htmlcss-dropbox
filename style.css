@@ -1,0 +1,40 @@
+/* GENERICS */
+
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* UTILITIES */
+
+.container-1200 {
+  width: 1200px;
+  margin: 100px auto;
+}
+
+.container-1000 {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.w-50 {
+  width: 50%;
+  height: 80px;
+  background-color: black;
+}
+
+.flt {
+  float: left;
+}
+
+/* Top Header  */
+
+#header-bar {
+  width: 100%;
+  margin: 0 auto;
+}
