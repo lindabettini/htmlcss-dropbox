@@ -61,17 +61,18 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   cursor: pointer;
-}
-
-.small-btn {
   padding: 5px 20px;
   margin-right: 30px;
+  font-size: 16px;
 }
 
 .txt-right {
   text-align: right;
+}
+
+.pos-relative {
+  position: relative;
 }
 
 /* Top Header  */
@@ -120,4 +121,19 @@ header {
 
 #jumbotron img {
   padding: 16px;
+}
+
+#jumbotron button {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#jumbotron p {
+  font-weight: 600;
+}
+
+#jumbotron .fa-arrow-down {
+  font-size: 35px;
+  margin: 20px 0;
 }
