@@ -126,6 +126,13 @@ li.pencil:before {
   font-weight: 900;
 }
 
+li.smile:before {
+  content: "\f118";
+}
+
+li.user-plus:before {
+  content: "\f234";
+}
 /* TOP HEADER BAR */
 
 header {
