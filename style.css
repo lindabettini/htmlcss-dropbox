@@ -76,11 +76,16 @@ img {
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
   cursor: pointer;
   padding: 5px 20px;
   margin-right: 30px;
   font-size: 16px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-left: 0;
 }
 
 /* Texts  */
@@ -183,11 +188,12 @@ header {
   object-fit: cover;
 }
 
-#jumbotron button {
+#jumbotron .blue-btn {
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 8px 20px;
   margin-top: 25px;
   margin-bottom: 15px;
+  display: inline-block;
 }
 
 #jumbotron p {
@@ -222,11 +228,6 @@ header {
   padding-left: 15px;
 }
 
-/* #subscription-options .row ul {
-  margin-top: 35px;
+#subscription-options .blue-btn {
+  display: inline;
 }
-
-#subscription-options .row ul li {
-  margin-bottom: 15px;
-  font-size: 14px;
-} */
