@@ -34,7 +34,7 @@ img {
 }
 
 .w-33 {
-  width: 333.33px;
+  width: calc(100% / 3 - 40px);
   height: 600px;
   border: 1px solid black;
 }
@@ -51,16 +51,7 @@ img {
   width: 70%;
 }
 
-.col-content {
-  border: 1px solid lightgrey;
-}
-
-.col-content.mar-compensation {
-  width: calc(333.33px - 40px);
-  margin: 0 20px;
-}
-
-/* Float  */
+/* Float/Position  */
 .flt {
   float: left;
 }
@@ -69,6 +60,10 @@ img {
   display: table;
   content: "";
   clear: both;
+}
+
+.pos-relative {
+  position: relative;
 }
 
 /* Buttons  */
@@ -138,6 +133,7 @@ header {
 
 #jumbotron img {
   padding: 16px;
+  object-fit: cover;
 }
 
 #jumbotron button {
