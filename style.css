@@ -17,6 +17,7 @@ img {
 /* UTILITIES */
 
 /* Containers  */
+
 .container-1200 {
   width: 1200px;
   margin-bottom: 100px;
@@ -52,6 +53,7 @@ img {
 }
 
 /* Float/Position  */
+
 .flt {
   float: left;
 }
@@ -67,6 +69,7 @@ img {
 }
 
 /* Buttons  */
+
 .blue-btn {
   background-color: rgb(0, 97, 255);
   border: none;
@@ -84,6 +87,43 @@ img {
 
 .txt-right {
   text-align: right;
+}
+
+/* Lists Style  */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  padding-left: 1.3em;
+  margin-bottom: 15px;
+}
+
+li:before {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+}
+
+li.user:before {
+  content: "\f007";
+}
+
+li.folder:before {
+  content: "\f07b";
+}
+
+li.pencil:before {
+  content: "\f303";
+  font-weight: 900;
 }
 
 /* TOP HEADER BAR */
@@ -175,12 +215,11 @@ header {
   padding-left: 15px;
 }
 
-#subscription-options .row ul {
+/* #subscription-options .row ul {
   margin-top: 35px;
 }
 
 #subscription-options .row ul li {
-  list-style-type: none;
   margin-bottom: 15px;
   font-size: 14px;
-}
+} */
