@@ -83,11 +83,6 @@ img {
   font-size: 16px;
 }
 
-.btn-container {
-  text-align: center;
-  margin-left: 0;
-}
-
 /* Texts  */
 
 .txt-right {
@@ -99,7 +94,7 @@ img {
 ul {
   list-style: none;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 li {
@@ -138,6 +133,13 @@ li.smile:before {
 li.user-plus:before {
   content: "\f234";
 }
+
+li.check:before {
+  content: "\f00c";
+  font-weight: 900;
+  color: rgb(0, 97, 255);
+}
+
 /* TOP HEADER BAR */
 
 header {
@@ -225,9 +227,25 @@ header {
 }
 
 #subscription-options .row {
-  padding-left: 15px;
+  padding: 0 15px;
 }
 
-#subscription-options .blue-btn {
-  display: inline;
+.btn-container {
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+#subscription-options .col-fit-btn {
+  background-color: rgb(0, 97, 255);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
 }
