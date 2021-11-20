@@ -132,6 +132,7 @@ li.smile:before {
 
 li.user-plus:before {
   content: "\f234";
+  font-weight: 900;
 }
 
 li.check:before {
