@@ -24,8 +24,8 @@ img {
   margin-right: auto;
 }
 
-.container-1000 {
-  width: 1000px;
+.container-1002 {
+  width: 1002px;
   margin: 100px auto;
 }
 
@@ -33,10 +33,16 @@ img {
   width: 30%;
 }
 
-.w-33 {
-  width: calc(100% / 3 - 40px);
+.w-300px {
+  width: 300px;
   height: 600px;
   border: 1px solid black;
+  float: left;
+}
+
+.w-300px.middle {
+  box-sizing: content-box;
+  margin: 0 30px;
 }
 
 .w-40 {
