@@ -30,19 +30,13 @@ img {
 }
 
 .w-30 {
-  width: 30%;
-}
-
-.w-300px {
-  width: 300px;
-  height: 600px;
+  width: calc(100% / 3 - 40px);
   border: 1px solid lightgray;
   float: left;
 }
 
-.w-300px.middle {
-  box-sizing: content-box;
-  margin: 0 48px;
+.w-30.middle {
+  margin: 0 60px;
 }
 
 .w-40 {
@@ -188,4 +182,5 @@ header {
 #subscription-options .row ul li {
   list-style-type: none;
   margin-bottom: 15px;
+  font-size: 14px;
 }
