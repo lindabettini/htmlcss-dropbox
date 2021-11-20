@@ -14,15 +14,6 @@ img {
   max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
 /* UTILITIES */
 
 /* Containers  */
@@ -110,6 +101,9 @@ h6 {
   text-align: right;
 }
 
+.gr-txt {
+  color: lightgray;
+}
 /* Lists Style  */
 
 ul {
@@ -234,7 +228,8 @@ header {
 /* n. 3 Columns 30%  */
 
 #subscription-options .w-30 {
-  height: 800px;
+  height: 750px;
+  margin-top: 40px;
 }
 
 .small-row {
@@ -279,6 +274,11 @@ header {
   line-height: 40px;
   vertical-align: middle;
   margin: 15px 0 5px 0;
+}
+
+#subscription .largebox h2 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #subscription-options
