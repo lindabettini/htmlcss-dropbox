@@ -32,7 +32,6 @@ img {
 
 .w-30 {
   width: calc(100% / 3 - 40px);
-  float: left;
 }
 
 .w-30.middle {
@@ -86,6 +85,17 @@ img {
   background-color: rgb(0, 97, 255);
   border: none;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  cursor: pointer;
+  padding: 5px 20px;
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.blue-btn {
+  border: 1px solid black;
   text-align: center;
   text-decoration: none;
   display: inline;
@@ -288,4 +298,13 @@ header {
   padding-left: 80px;
   padding-right: 80px;
   margin-right: 0;
+}
+
+/* DROPBOX PARTNER SECTION  */
+
+#drop-box-partner .w-50,
+h2,
+p,
+a {
+  padding-left: 30px;
 }
