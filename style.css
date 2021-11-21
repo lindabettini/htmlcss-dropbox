@@ -128,6 +128,12 @@ section {
 .gr-txt {
   color: lightgray;
 }
+
+/* Others  */
+
+.pad-l-30 {
+  padding-left: 30px;
+}
 /* Lists Style  */
 
 ul {
@@ -152,6 +158,12 @@ li:before {
   color: #000;
 }
 
+li.check:before {
+  content: "\f00c";
+  font-weight: 900;
+  color: rgb(0, 97, 255);
+}
+
 li.user:before {
   content: "\f007";
 }
@@ -172,12 +184,6 @@ li.smile:before {
 li.user-plus:before {
   content: "\f234";
   font-weight: 900;
-}
-
-li.check:before {
-  content: "\f00c";
-  font-weight: 900;
-  color: rgb(0, 97, 255);
 }
 
 /* TOP HEADER BAR */
@@ -315,10 +321,6 @@ header {
 }
 
 /* DROPBOX PARTNER SECTION */
-
-#dropbox-partner > * {
-  padding-left: 30px;
-}
 
 #dropbox-partner p {
   margin: 40px 0 40px 0;
