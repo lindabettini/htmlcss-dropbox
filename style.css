@@ -345,6 +345,11 @@ header {
 /* SPONSORS SECTION  */
 
 /* Background-colors: */
+
+#sponsors .container-1200 {
+  margin-top: 31.54px;
+}
+
 .light-green {
   background-color: rgb(162, 211, 155);
 }
@@ -377,7 +382,7 @@ header {
   background-color: rgb(255, 216, 48);
 }
 
-/* Sponsors logos img: */
+/* Sponsors logos Img: */
 
 #sponsors .square-180 img {
   width: 70%;
@@ -422,6 +427,6 @@ header {
   border: white;
   padding: 6px 40px;
   margin-right: 0;
-  margin-top: 10px;
+  margin-top: 12px;
   font-weight: bold;
 }
