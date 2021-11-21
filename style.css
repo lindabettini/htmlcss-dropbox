@@ -376,6 +376,8 @@ header {
   background-color: rgb(255, 216, 48);
 }
 
+/* Sponsors logos img: */
+
 #sponsors .square-180 img {
   width: 70%;
   height: auto;
@@ -386,6 +388,17 @@ header {
   filter: invert(100%);
 }
 
+/* Sponsor Citations:  */
+
 #sponsors .w-40 {
-  height: 400px;
+  padding: 40px;
+}
+
+#sponsors .w-40 img {
+  width: 30%;
+  height: auto;
+}
+
+.spons-quote {
+  margin: 50px 0;
 }
