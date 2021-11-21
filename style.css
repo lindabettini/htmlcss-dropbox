@@ -43,6 +43,10 @@ section {
   margin-bottom: 100px;
 }
 
+.w-10 {
+  width: 10%;
+}
+
 .w-30 {
   width: 30%;
 }
@@ -63,8 +67,16 @@ section {
   width: 50%;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 .w-70 {
   width: 70%;
+}
+
+.w-90 {
+  width: 90%;
 }
 
 .largebox {
@@ -429,4 +441,32 @@ header {
   margin-right: 0;
   margin-top: 12px;
   font-weight: bold;
+}
+
+/* FAQ SECTION  */
+
+#faq .w-10 {
+  text-align: right;
+}
+
+#faq .w-10 i {
+  margin-top: 21.5px;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.faq-row {
+  border-top: 1px solid lightgray;
+}
+
+#faq h3 {
+  margin-bottom: 40px;
+}
+
+.faq-row h4 {
+  margin: 35px 0;
+}
+
+.faq-row:last-of-type {
+  border-bottom: 1px solid lightgray;
 }
