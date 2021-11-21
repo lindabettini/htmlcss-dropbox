@@ -28,14 +28,14 @@ h3 {
 
 .container-1200 {
   width: 1200px;
-  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .container-1000 {
   width: 1000px;
-  margin: 100px auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section {
@@ -117,6 +117,7 @@ section {
 }
 
 .white-btn {
+  background-color: white;
   border: 1px solid black;
   text-align: center;
   text-decoration: none;
@@ -388,7 +389,7 @@ header {
   filter: invert(100%);
 }
 
-/* Sponsor Citations:  */
+/* Sponsors Citations:  */
 
 #sponsors .w-40 {
   padding: 40px;
@@ -401,4 +402,26 @@ header {
 
 .spons-quote {
   margin: 50px 0;
+}
+
+/* Sponsors Section Footer:  */
+
+#sponsors .sponsors-footer {
+  background-color: rgb(180, 208, 230);
+  height: 244px;
+  padding: 60px 0;
+}
+
+.sponsors-footer h2 {
+  color: rgb(97, 8, 43);
+  margin: 0;
+}
+
+.sponsors-footer .white-btn {
+  display: inline-block;
+  border: white;
+  padding: 6px 40px;
+  margin-right: 0;
+  margin-top: 10px;
+  font-weight: bold;
 }
