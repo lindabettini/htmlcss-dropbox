@@ -44,10 +44,14 @@ section {
 }
 
 .w-30 {
+  width: 30%;
+}
+
+.w-33 {
   width: calc(100% / 3 - 40px);
 }
 
-.w-30.middle {
+.w-33.middle {
   margin: 0 60px;
 }
 
@@ -70,6 +74,11 @@ section {
 .row {
   padding: 0 15px;
   font-size: 14px;
+}
+
+.square-180 {
+  height: 216.7px;
+  width: 50%;
 }
 
 .gy-border {
@@ -135,10 +144,6 @@ section {
   padding-left: 30px;
 }
 
-.square-180 {
-  height: 180px;
-  width: 180px;
-}
 /* Lists Style:  */
 
 ul {
@@ -261,7 +266,7 @@ header {
 /* SUBSCRIPTION OPTIONS SECTION  */
 /* n. 3 Columns 30%:  */
 
-#subscription-options .w-30 {
+#subscription-options .w-33 {
   height: 750px;
   margin-top: 40px;
 }
@@ -379,4 +384,8 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   filter: invert(100%);
+}
+
+#sponsors .w-40 {
+  height: 400px;
 }
