@@ -306,7 +306,7 @@ header {
   margin-right: 0;
 }
 
-/* DROPBOX PARTNER SECTION  */
+/* DROPBOX PARTNER SECTION */
 
 #dropbox-partner > * {
   padding-left: 30px;
@@ -314,4 +314,10 @@ header {
 
 #dropbox-partner p {
   margin: 40px 0 40px 0;
+}
+
+/* DROPBOX OPERATIONS SECTION - CARDS  */
+
+#dropbox-operations img {
+  margin-top: 50px;
 }
