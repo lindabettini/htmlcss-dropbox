@@ -349,10 +349,7 @@ header {
   margin-bottom: 0;
 }
 
-#subscription-options
-  .largebox
-  .w-50
-  .blue-btn {
+#subscription-options .largebox .w-50 .blue-btn {
   padding-left: 80px;
   padding-right: 80px;
   margin-right: 0;
