@@ -93,12 +93,18 @@ section {
 }
 
 .square-180 {
-  height: 216.7px;
+  height: 180px;
   width: 50%;
+  transition: all 0.3s ease 0s;
+}
+
+.square-180:hover {
+  border: 1.5px transparent;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
 .gy-border {
-  border: 1px solid lightgray;
+  border: 1.5px solid lightgray;
 }
 
 /* Float/Position:  */
