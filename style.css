@@ -260,9 +260,12 @@ header {
   font-size: 60px;
 }
 
+#jumbotron .w-70 {
+  height: 487px;
+}
+
 #jumbotron img {
   padding: 16px;
-  object-fit: cover;
 }
 
 #jumbotron .blue-btn {
