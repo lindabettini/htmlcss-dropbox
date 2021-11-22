@@ -1,7 +1,7 @@
 /* GENERICS */
 
 * {
-  border: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -224,12 +224,19 @@ header {
 
 #header-bar {
   height: 80px;
-  line-height: 80px;
 }
 
 #header-bar nav {
+  display: block;
+  line-height: 80px;
+}
+
+#header-bar ul {
+  margin-top: 0;
+}
+
+#header-bar li {
   display: inline;
-  vertical-align: middle;
   padding: 0 15px;
 }
 
