@@ -542,36 +542,43 @@ header {
 
 /* FAQ SECTION  */
 
-.faq-row {  
+.faq-row h4{  
   height: 80px;
   line-height: 80px;
 }
 
-#faq .w-90 {
-  vertical-align: middle;
-}
-
-#faq .w-10 {
-  vertical-align: middle;
-  text-align: right;
-
-}
 .faq-row h4{
   padding:0;
 }
-#faq .w-10 i {
-  margin-right: 25px;
-  font-size: 18px;
+
+.faq-btn{ 
+  cursor: pointer;
+  position: absolute;
+  right:50px;
+  top:30px;
 }
 
-.faq-row .w-90,.w-10:nth-child(even) {
+
+#faq-pp {
+  display: none;
+}
+
+#faq-pp:target {
+  display: block;
+}
+
+
+
+
+/* _____________________ */
+
+.faq-row:nth-child(even) {
   border-bottom: 1px solid lightgray;
 } 
 
 .faq-row:first-of-type{
   border-top: 1px solid lightgray;
 }
-
 /* FOOTER  */
 
 footer {
