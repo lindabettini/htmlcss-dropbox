@@ -503,7 +503,6 @@ header {
 
 footer {
   background-color: black;
-  color: white;
 }
 
 .container-1200 #footer {
@@ -512,7 +511,7 @@ footer {
 }
 
 #footer li {
-  padding-left: 0;
+  line-height: 30px;
 }
 
 #footer ul a {
@@ -521,6 +520,16 @@ footer {
   font-size: 12px;
 }
 
-#footer .w-2 {
+#footer .w-20 {
   padding: 50px 0;
+}
+
+#foot-lang-menu{
+  height: 20px;
+  line-height: 20px;
+}
+
+#foot-lang-menu {
+  vertical-align: middle;
+  color: gray;
 }
