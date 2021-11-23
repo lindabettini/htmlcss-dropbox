@@ -158,10 +158,18 @@ section {
   cursor: pointer;
 }
 
+.btn:hover{
+  background-color: rgb(228, 228, 228);
+}
+
 .blue-btn {
   background-color: rgb(0, 97, 255);
   border: 1px solid rgb(0, 97, 255);
   color: white; 
+}
+
+.blue-btn:hover{
+  background-color: rgba(0, 97, 255, 0.8);
 }
 
 /* Texts:  */
@@ -475,13 +483,12 @@ header {
 
 #faq .w-90 {
   vertical-align: middle;
-  /* border-top: 1px solid lightgray; */
 }
 
 #faq .w-10 {
   vertical-align: middle;
   text-align: right;
-  /* border-top: 1px solid lightgray; */
+
 }
 .faq-row h4{
   padding:0;
