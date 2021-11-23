@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   padding-top: 80px;
@@ -361,6 +365,8 @@ header {
 #jumbotron p {
   font-weight: bold;
 }
+
+/* Bouncing arrow link  */
 
 #jumbotron .fa-arrow-down {
   font-size: 40px;
