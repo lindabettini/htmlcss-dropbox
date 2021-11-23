@@ -395,10 +395,6 @@ header {
 
 /* Background-colors: */
 
-#sponsors .container-1200 {
-  margin-top: 31.54px;
-}
-
 .light-green {
   background-color: rgb(162, 211, 155);
 }
@@ -446,7 +442,7 @@ header {
 /* Sponsors Citations:  */
 
 #sponsors .w-40 {
-  padding: 40px;
+  padding: 30px;
 }
 
 #sponsors .w-40 img {
@@ -455,7 +451,7 @@ header {
 }
 
 .spons-quote {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 /* Sponsors Section Footer:  */
