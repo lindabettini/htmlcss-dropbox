@@ -278,9 +278,16 @@ header {
 }
 
 #header-bar li {
-  display: inline;
+  display: inline-block;
+  height: 80px;
+  transition: border-bottom 3px solid gray;
   vertical-align: middle;
 }
+
+#header-bar li:hover{
+  border-bottom: 3px solid gray;
+}
+
 
 #header-bar nav a {
   margin: 0 15px;
