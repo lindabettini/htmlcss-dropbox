@@ -15,12 +15,30 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  font-size: 3.5em;
+  padding: 50px 0 40px 0;
+}
+
 h2 {
-  font-size: 38px;
+  font-size: 34px;
+  font-weight: 700;
+  padding: 30px 0;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 25px;
+  padding: 15px 0;
+}
+
+h4 {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+h5{
+  font-size: 16px;
+  padding; 10px 0;
 }
 
 /* UTILITIES */
@@ -128,6 +146,10 @@ section {
 
 /* Buttons:  */
 
+.btn{
+  border: 1px solid black;
+}
+
 .blue-btn {
   background-color: rgb(0, 97, 255);
   border: none;
@@ -166,10 +188,6 @@ section {
 
 /* Others:  */
 
-.pad-l-30 {
-  padding-left: 30px;
-}
-
 hr {
   border: none;
   border-top: 1px solid lightgray;
@@ -185,11 +203,14 @@ hr.small-hr {
   width: 50px;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /* Icon-Lists Style:  */
 
 ul.icon-list {
-  list-style: none;
-  padding: 0;
   margin-top: 40px;
 }
 
@@ -284,13 +305,6 @@ header {
   background-color: rgb(180, 208, 230);
 }
 
-#jumbotron h1 {
-  margin: 0;
-  padding-top: 80px;
-  padding-bottom: 10px;
-  font-size: 60px;
-}
-
 #jumbotron .w-70 {
   height: 487px;
 }
@@ -361,28 +375,30 @@ header {
   font-size: 14px;
 }
 /* Footer Prices Table: */
-#subscription-options .largebox .w-50 {
-  height: 40px;
-  line-height: 40px;
+#subscription-options .largebox .row {
+ padding: 40px;
+ line-height: 40px;
+}
+
+#subscription-options .row h3{
+  padding: 0; 
   vertical-align: middle;
-  margin: 15px 0 5px 0;
 }
 
-#subscription-options .largebox h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#subscription-options .largebox .w-50 .blue-btn {
+#subscription-options .row .blue-btn{
+  vertical-align: middle;
   padding-left: 80px;
   padding-right: 80px;
-  margin-right: 0;
 }
 
 /* DROPBOX PARTNER SECTION */
 
-#dropbox-partner p {
-  margin: 40px 0 40px 0;
+#dropbox-partner .w-40{
+  padding: 40px;
+}
+
+#dropbox-partner .w-40 p{
+  margin-bottom: 35px;
 }
 
 /* DROPBOX OPERATIONS SECTION - CARDS  */
@@ -392,6 +408,33 @@ header {
 }
 
 /* SPONSORS SECTION  */
+
+/* Sponsors logos Img: */
+
+#sponsors .square-180 img {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(100%);
+}
+
+/* Central column -> Sponsors Citations:  */
+
+#sponsors .w-40 {
+  padding: 30px;
+}
+
+#sponsors .w-40 img {
+  width: 30%;
+  height: auto;
+}
+
+.spons-quote {
+  margin: 25px 0;
+}
 
 /* Background-colors: */
 
@@ -427,33 +470,6 @@ header {
   background-color: rgb(255, 216, 48);
 }
 
-/* Sponsors logos Img: */
-
-#sponsors .square-180 img {
-  width: 60%;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  filter: invert(100%);
-}
-
-/* Sponsors Citations:  */
-
-#sponsors .w-40 {
-  padding: 30px;
-}
-
-#sponsors .w-40 img {
-  width: 30%;
-  height: auto;
-}
-
-.spons-quote {
-  margin: 25px 0;
-}
-
 /* Sponsors Section Footer:  */
 
 #sponsors .sponsors-footer {
@@ -464,7 +480,6 @@ header {
 
 .sponsors-footer h2 {
   color: rgb(97, 8, 43);
-  margin: 0;
 }
 
 .sponsors-footer .white-btn {
@@ -490,14 +505,6 @@ header {
 
 .faq-row {
   border-top: 1px solid lightgray;
-}
-
-#faq h3 {
-  margin-bottom: 40px;
-}
-
-.faq-row h4 {
-  margin: 35px 0;
 }
 
 .faq-row:last-of-type {
