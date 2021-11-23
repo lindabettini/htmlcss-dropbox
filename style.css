@@ -338,6 +338,14 @@ header {
   margin-top: 40px;
 }
 
+#radio-billing input{
+  margin-right: 5px;
+}
+
+#radio-billing input:nth-child(2){
+  margin-left: 25px;
+}
+
 .small-row {
   height: 36px;
   padding: 10px;
