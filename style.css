@@ -148,32 +148,20 @@ section {
 
 .btn{
   border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  display: inline;
+  font-size: 16px;
+  padding: 5px 20px;
+  cursor: pointer;
 }
 
 .blue-btn {
   background-color: rgb(0, 97, 255);
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline;
-  cursor: pointer;
-  padding: 5px 20px;
-  margin-right: 30px;
-  font-size: 16px;
-}
-
-.white-btn {
-  background-color: white;
-  border: 1px solid black;
-  text-align: center;
-  text-decoration: none;
-  display: inline;
-  cursor: pointer;
-  padding: 5px 20px;
-  margin-right: 30px;
-  font-size: 16px;
-  color: black;
+  border: 1px solid rgb(0, 97, 255);
+  color: white; 
 }
 
 /* Texts:  */
@@ -218,6 +206,7 @@ ul.icon-list li {
   padding-left: 1.3em;
   margin-bottom: 15px;
 }
+
 .icon-list li:before {
   font-family: "Font Awesome 5 Free";
   display: inline-block;
@@ -286,7 +275,7 @@ header {
 }
 
 #header-bar nav a {
-  padding: 0 15px;
+  margin: 0 15px;
   color: black;
   text-decoration: none;
   font-weight: 600;
@@ -295,6 +284,11 @@ header {
 
 #header-bar img {
   vertical-align: middle;
+}
+
+#header-bar .btn.blue-btn{
+  color: white;
+  padding: 2px 10px;
 }
 
 /* JUMBOTRON */
@@ -315,9 +309,7 @@ header {
 
 #jumbotron .blue-btn {
   font-size: 18px;
-  padding: 8px 20px;
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin: 25px 0;
   display: inline-block;
 }
 
@@ -361,20 +353,12 @@ header {
 }
 
 #subscription-options .col-fit-btn {
-  background-color: rgb(0, 97, 255);
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
-  height: 34px;
-  line-height: 34px;
-  vertical-align: middle;
   width: 100%;
-  cursor: pointer;
   font-size: 14px;
 }
 /* Footer Prices Table: */
+
 #subscription-options .largebox .row {
  padding: 40px;
  line-height: 40px;
@@ -383,12 +367,6 @@ header {
 #subscription-options .row h3{
   padding: 0; 
   vertical-align: middle;
-}
-
-#subscription-options .row .blue-btn{
-  vertical-align: middle;
-  padding-left: 80px;
-  padding-right: 80px;
 }
 
 /* DROPBOX PARTNER SECTION */
@@ -484,31 +462,41 @@ header {
 
 .sponsors-footer .white-btn {
   display: inline-block;
-  border: white;
-  padding: 6px 40px;
-  margin-right: 0;
-  margin-top: 12px;
   font-weight: bold;
+  margin-top: 35px;;
 }
 
 /* FAQ SECTION  */
 
+.faq-row {  
+  height: 80px;
+  line-height: 80px;
+}
+
+#faq .w-90 {
+  vertical-align: middle;
+  /* border-top: 1px solid lightgray; */
+}
+
 #faq .w-10 {
+  vertical-align: middle;
   text-align: right;
+  /* border-top: 1px solid lightgray; */
 }
-
+.faq-row h4{
+  padding:0;
+}
 #faq .w-10 i {
-  margin-top: 21.5px;
   margin-right: 25px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.faq-row {
-  border-top: 1px solid lightgray;
-}
-
-.faq-row:last-of-type {
+.faq-row .w-90,.w-10:nth-child(even) {
   border-bottom: 1px solid lightgray;
+} 
+
+.faq-row:first-of-type{
+  border-top: 1px solid lightgray;
 }
 
 /* FOOTER  */
