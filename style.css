@@ -552,6 +552,10 @@ header {
 
 /* FAQ SECTION  */
 
+.faq-row {
+  padding: 0 20px 30px 20px;
+}
+
 .faq-row .faq-openable {
   height: 80px;
   line-height: 80px;
