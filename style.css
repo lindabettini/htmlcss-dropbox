@@ -51,15 +51,13 @@ h5 {
 
 .container-1200 {
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 0 10px;
 }
 
 .container-1000 {
   width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 0 10px;
 }
 
@@ -552,30 +550,32 @@ header {
 
 /* FAQ SECTION  */
 
-.faq-row {
-  padding: 0 20px 30px 20px;
+#faq .faq-row {
+  padding: 20px;
 }
 
-.faq-row .faq-openable {
-  height: 80px;
-  line-height: 80px;
-}
-
-.faq-row .faq-openable h4 {
-  padding: 0;
-  vertical-align: middle;
+.faq-row .details-open h4 {
   display: inline-block;
+  padding: 0;
 }
 
-.faq-openable .faq-btn {
+.details-open .faq-btn-accordion {
   display: inline-block;
   position: absolute;
   right: 20px;
 }
 
-.faq-row .faq-openable .faq-btn .dropdown-arrow {
-  vertical-align: middle;
+.faq-row .details-open .faq-btn-accordion a {
   color: black;
+}
+
+#faq .faq-row #faq-p {
+  display: none;
+  position: absolute;
+}
+
+#faq .faq-row .faq-btn-accordion:active .faq-p {
+  display: block;
 }
 
 /* FOOTER  */
