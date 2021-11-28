@@ -496,6 +496,7 @@ header {
 #sponsors .spons-w30 {
   width: calc(100% / 3);
   height: calc(100vw / 3);
+  margin-top: 25px;
 }
 
 #sponsors .square-spons {
@@ -521,11 +522,11 @@ header {
 
 /* Central column -> Sponsors Citations:  */
 
-#sponsors .spons-w30 {
-  padding: 10px;
+#sponsors #quote {
+  padding: 10px 20px;
 }
 
-#sponsors .quote img {
+#sponsors #quote img {
   width: 30%;
   height: auto;
   margin-top: 10px;
