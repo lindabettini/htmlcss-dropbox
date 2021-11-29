@@ -548,6 +548,11 @@ header {
   margin-top: 35px;
 }
 
+.sponsor-address {
+  font-style: normal;
+  margin-top: 30px;
+}
+
 /* FAQS SECTION  */
 
 #faqs h3 {
@@ -583,6 +588,7 @@ header {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .accordion input:checked + .accd-title i {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
